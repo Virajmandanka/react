@@ -1,5 +1,6 @@
 
 import { useState } from "react"
+import Swal from 'sweetalert2'
 
 
 function Login() {
@@ -34,10 +35,19 @@ function Login() {
 const data=arr.filter((el)=>el.email===Lemail && el.password===Lpass)
 if(data.length>0)
      {
-      alert("Sucss")
+      Swal.fire({
+        title: "success",
+        text: "You clicked the button!",
+        icon: "success"
+      });
      }
      else{
-      alert("Unscess")
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+     
+      });
      }
     }
     
