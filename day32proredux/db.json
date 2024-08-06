@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": "8a66",
+      "reducer": {
+        "isLoading": false,
+        "data": [],
+        "isError": false
+      },
+      "formReducer": {
+        "username": "viraj",
+        "email": "virajmandanka6@gmail.com",
+        "password": "123"
+      }
+    },
+    {
+      "id": "8823",
+      "reducer": {
+        "isLoading": false,
+        "data": [],
+        "isError": false
+      },
+      "formReducer": {
+        "username": "hj",
+        "email": "virajmandanka6@gmail.com",
+        "password": "123"
+      }
+    },
+    {
+      "id": "d70b",
+      "reducer": {
+        "isLoading": false,
+        "data": [],
+        "isError": false
+      },
+      "formReducer": {
+        "username": "viraj",
+        "email": "virajmandanka6@gmail.com",
+        "password": "123"
+      },
+      "Login_reducer": {
+        "email": null,
+        "password": null
+      }
+    },
+    {
+      "id": "8f48",
+      "reducer": {
+        "isLoading": false,
+        "data": [],
+        "isError": false
+      },
+      "formReducer": {
+        "username": "viraj",
+        "email": "virajmandanka6@gmail.com",
+        "password": "123"
+      },
+      "auth": {
+        "user": null,
+        "loading": false,
+        "error": null
+      }
+    },
+    {
+      "id": "34e5",
+      "reducer": {
+        "isLoading": false,
+        "data": [],
+        "isError": false
+      },
+      "loginReducer": {
+        "isLogin": false,
+        "user": [],
+        "isError": false,
+        "isPassword": false
+      }
+    },
+    {
+      "id": "633d",
+      "reducer": {
+        "isLoading": false,
+        "data": [],
+        "isError": false
+      },
+      "formReducer": {
+        "username": "viraj",
+        "email": "virajmandanka6@gmail.com",
+        "password": "123"
+      },
+      "loginReducer": {
+        "isLogin": false,
+        "user": [],
+        "isError": false,
+        "isPassword": true
+      }
+    },
+    {
+      "id": "cd4c",
+      "reducer": {
+        "isLoading": false,
+        "data": [],
+        "isError": false
+      },
+      "formReducer": {
+        "username": "viraj",
+        "email": "virajmandanka6@gmail.com",
+        "password": "1234"
+      },
+      "loginReducer": {
+        "loading": false,
+        "data": null,
+        "error": null
+      }
+    },
+    {
+      "id": "18c1",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "1234"
+    },
+    {
+      "id": "3225",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "1234"
+    },
+    {
+      "id": "f58b",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "11"
+    },
+    {
+      "id": "1eaa",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "00"
+    },
+    {
+      "id": "bcd9",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "44"
+    },
+    {
+      "id": "650a",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "00"
+    },
+    {
+      "id": "34a7",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "66"
+    },
+    {
+      "id": "3d3c",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "1"
+    },
+    {
+      "id": "94f8",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "789"
+    },
+    {
+      "id": "3619",
+      "username": "sid",
+      "email": "sid@gmail.com",
+      "pass": "17131432"
+    },
+    {
+      "id": "55f1",
+      "username": "sid",
+      "email": "sid123@gmail.com",
+      "pass": "17131432"
+    },
+    {
+      "id": "00a7",
+      "username": "d",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "123"
+    },
+    {
+      "id": "5ada",
+      "username": "viraj",
+      "email": "virajmandanka6@gmail.com",
+      "pass": "555"
+    }
+  ]
+}

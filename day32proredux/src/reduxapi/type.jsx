@@ -1,0 +1,11 @@
+export const DATA = "DATA";
+export const DATA_ERROR = "DATA_ERROR"; 
+export const USERNAME = 'USERNAME';
+export const EMAIL = 'EMAIL';
+export const PASSWORD = 'PASSWORD';
+export const ERROR = 'ERROR';
+export const L_EMAIL ="l_email";
+export const L_PASSWORD ="l_password";
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
