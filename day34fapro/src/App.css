@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Cide.css */
+
+body {
+  background-color: #000; /* Background color black */
+  color: #fff; /* White text for readability */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1c1c1c; /* Slightly lighter black for contrast */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #444;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s; /* Transition for border and shadow */
+}
+
+form input[type="text"]:focus {
+  border-color: #00bfff; /* Sky blue border on focus */
+  box-shadow: 0 0 10px #00bfff; /* Sky blue shadow on focus */
+  outline: none;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  background: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Initial button shadow */
+  transition: background 0.3s, box-shadow 0.3s; /* Transition for background and shadow */
+}
+
+form input[type="submit"]:hover {
+  background: #303f9f;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  background: #2b2b2b;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  position: relative;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.user-item h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.user-item .buttons {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.user-item .buttons button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Initial button shadow */
+  transition: background 0.3s, box-shadow 0.3s; /* Transition for background and shadow */
+}
+
+.user-item .buttons .delete-btn {
+  background: #e53935;
+  color: #fff;
+}
+
+.user-item .buttons .delete-btn:hover {
+  background: #d32f2f;
+  /* box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);  */
+  /* More pronounced shadow on hover */
+  box-shadow: 0px 0px 10px rgb(47, 255, 231),0px 0px 10px rgb(47, 255, 231);
+}
+
+.user-item .buttons .update-btn {
+  background: #43a047;
+  color: #fff;
+}
+
+.user-item .buttons .update-btn:hover {
+  background: #388e3c;
+  /* box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0px 0px 10px rgb(47, 255, 231),0px 0px 10px rgb(47, 255, 231);
+  
+ 
+   
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
