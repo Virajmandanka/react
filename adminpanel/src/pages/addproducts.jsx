@@ -10,7 +10,7 @@ function Addproducts() {
   const [arry, setArry] = useState([]);
   const [edit, setEdit] = useState(null);
 
-  const userCollection = collection(db, 'products');  // Assuming you store products in the "products" collection
+  const userCollection = collection(db, 'products');  
 
   const handleSubmit = async (e) => {
     e.preventDefault();

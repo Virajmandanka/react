@@ -31,12 +31,13 @@ function Products() {
       <ul className="product-list">
         {products.map((el) => (
           <li key={el.id} className="product-item">
-            <h1>{el.name}</h1>
-            <p>Price: ${el.price}</p>
-            <img src={el.imageUrl} alt={el.name} style={{ width: '100px', height: '100px' }} />
+      <img src={el.imageUrl} alt={el.name} style={{ width: '280px', height: '170px' }} />
+
+            <h1>Name : {el.name}</h1>
+            <p>Price : ${el.price}</p>
             <div className="buttons">
               <button className="delete-btn" onClick={() => handleDelete(el.id)}>Delete</button>
-              {/* Navigate to Addproducts with the product ID */}
+             
               <Link to={`/addproduct/${el.id}`} className="edit-btn">Edit</Link>
             </div>
           </li>
