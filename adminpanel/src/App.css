@@ -1,0 +1,363 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/*navbar */
+
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+} */
+
+.navbar {
+  height: 50px;
+  background-color: black;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  gap: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li {
+  display: inline;
+  /* align-items: center;
+  text-align: center; */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  /* align-items: center;
+  display: flex;
+  justify-content: space-evenly; */
+  transition: background-color 0.3s ease;
+  margin-top: 100px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.navbar-input {
+  padding: 0.5em;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #222;
+  color: white;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-input:focus {
+  border-color: #888;
+  background-color: #333;
+  outline: none;
+}
+/*navbar1 */
+.he{
+  height: 500px;
+  width: 150px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #9d9da0;
+}
+.tt{
+  color: rgb(0, 255, 255);
+}
+/* .he .Link{
+  color: red;
+} */
+.men{
+  height: 800px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: #b8b5b5;
+}
+.gg{
+  height: 800px;
+  width: 1110px;
+  border: 3px solid black;
+
+}
+/*addproduct*/
+/* Container for the entire component */
+
+
+/* Styling for the form */
+/* Container for the entire component */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #1a1a1a; /* Dark background for contrast */
+  color: #f0f0f0; /* Light text color for readability */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex container for the list of products */
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Flex item for each product */
+.user-item {
+  background-color: #333; /* Darker background for list items */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px); /* 3 items per row with some space */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Product image styling */
+.user-item img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for the product name and price */
+.user-item h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.user-item p {
+  margin: 5px 0;
+}
+
+/* Buttons container styling */
+.buttons {
+  margin-top: 10px;
+}
+
+/* Common button styles */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin: 0 5px;
+}
+
+/* Delete button styles */
+.delete-btn {
+  background-color: #dc3545; /* Red background for delete button */
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Update button styles */
+.update-btn {
+  background-color: #007bff; /* Blue background for update button */
+}
+
+.update-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue background for submit button */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for the list of products */
+
+/*products*/
+/* Container for the entire component */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  background-color: #b8b5b5; /* Dark background for contrast */
+  color: #f0f0f0; /* Light text color for readability */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex container for the list of products */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Flex item for each product */
+.product-item {
+  background-color: #333; /* Darker background for list items */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(25% - 20px); /* 4 items per row with some space */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Product image styling */
+.product-item img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for the product name and price */
+.product-item h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.product-item p {
+  margin: 5px 0;
+}
+
+/* Buttons container styling */
+.buttons {
+  margin-top: 10px;
+}
+
+/* Common button styles */
+button,
+a {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: #222024;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin: 0 5px;
+}
+
+/* Delete button styles */
+.delete-btn {
+  background-color: #dc3545; /* Red background for delete button */
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Edit button styles */
+.edit-btn {
+  background-color: #007bff; /* Blue background for edit button */
+}
+
+.edit-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add new product button */
+.add-btn {
+  display: block;
+  padding: 10px 20px;
+  background-color: #28a745; /* Green background for add button */
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
