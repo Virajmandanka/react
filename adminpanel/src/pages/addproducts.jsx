@@ -7,6 +7,7 @@ function Addproducts() {
   const [name, setName] = useState('');
   const [price, setPrice] = useState('');
   const [imageUrl, setImageUrl] = useState('');
+  const [category, setcategory] = useState('');
   const [arry, setArry] = useState([]);
   const [edit, setEdit] = useState(null);
 
@@ -18,7 +19,8 @@ function Addproducts() {
     const obj = {
       name,
       price,
-      imageUrl
+      imageUrl,
+      category
     };
 
     if (edit) {
@@ -33,6 +35,7 @@ function Addproducts() {
     setName('');
     setPrice('');
     setImageUrl('');
+    setcategory('');
     setEdit(null);
     getData();
   };
@@ -59,6 +62,7 @@ function Addproducts() {
     setName(item.name);
     setPrice(item.price);
     setImageUrl(item.imageUrl);
+    setcategory(item.category);
     setEdit(id);
   };
 
@@ -84,6 +88,13 @@ function Addproducts() {
           value={imageUrl}
           onChange={(e) => setImageUrl(e.target.value)}
           placeholder="Enter image URL"
+          required
+        />
+        <input
+          type="text"
+          value={category}
+          onChange={(e) => setcategory(e.target.value)}
+          placeholder="Enter category"
           required
         />
         <input type="submit" value={edit ? "Update" : "Submit"} />

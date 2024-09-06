@@ -34,8 +34,8 @@ function Navbar1() {
 <Route path='/products' element={<Products/>}></Route>
 
 <Route path='/users' element={<Users/>}></Route>
-<Route path='/addproduct/id:?' element={<Addproducts/>}></Route>
-<Route path='/addproduct' element={<Addproducts/>}></Route>
+<Route path='/addproducts/id:?' element={<Addproducts/>}></Route>
+<Route path='/addproducts' element={<Addproducts/>}></Route>
 <Route path='/' element={<Products/>}></Route>
 <Route path='/logout' element={<Logout/>}></Route>
 
