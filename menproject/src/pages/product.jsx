@@ -22,7 +22,7 @@ function Product() {
       <div className="men10">
         {state.map((el) => (
           <NavLink to={`/Product/${el.id}`} key={el.id} className="product-link">
-            <div className="men11">
+            <div className="men11 shadow">
               <img src={el.image} alt={el.title} className="product-image" />
               <p className="hj">{el.title}</p>
               <h1 className="hj1">₹{el.price}</h1>

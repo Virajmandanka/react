@@ -57,27 +57,27 @@ function Services() {
       </div>
     </div>
 
-    <div className='box21'>
+    <div className='box212'>
       
     <p className='q21'>All products services</p>
 
     </div>
 
-    <div className='men18'>
+    <div className='men188'>
 
-      <div className='box22'>
+      <div className='box222'>
        <div className='oo'><img src="21.jpg" alt="" /></div>
       <div className='box23'>Manufacturer warranty</div>
       </div>
-      <div className='box22'>
+      <div className='box222'>
       <div className='oo'><img src="22.jpg" alt="" /></div>
       <div className='box23'>Care product</div>
       </div>
-      <div className='box22'>
+      <div className='box222'>
       <div className='oo'><img src="23.jpg" alt="" /></div>
       <div className='box23'>Repair Vitra Circle store campus</div>
       </div>
-      <div className='box22'>
+      <div className='box222'>
       <div className='oo'><img src="24.jpg" alt="" /></div>
       <div className='box23'>FAQ and contact</div>
       </div>
